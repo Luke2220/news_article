@@ -1,0 +1,55 @@
+nav{
+    position:fixed;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    top:0px;
+    right:5px;
+    left:5px;
+    width:auto;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.25);
+    height:50px;
+}
+
+nav img{
+    flex-basis:25px;
+    margin:0 15px;
+}
+nav p{
+    margin-left:15px;
+    flex-grow:3; 
+}
+nav h1
+{
+    flex-grow:3;
+    font-family:Helvetica, sans-serif;
+}
+nav img{
+    min-width:25px;
+    min-height:25px;
+}
+nav button{
+    margin:0 10px;
+    background-color: rgb(61, 80, 126);
+    color:white;
+    border-color: black;
+    border-radius: 3px;
+    border-width: 1px;
+    padding:5px 15px;
+}
+
+.content
+{
+    margin-top:100px;
+}
+
+.title {
+    display:grid;
+    grid-template-columns:repeat(7,1fr);
+    align-items:flex-start;
+    justify-content: flex-start;
+}
+
+.title h2{
+    grid-column: 1 / -1;
+}
